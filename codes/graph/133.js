@@ -5,7 +5,7 @@
  */
 var cloneGraph = function (node) {
   let oldToNew = new Map();
-  //traversal the graph
+  //traversal the graph dfs 作用就是copy graph 用一个map记录
   let dfs = (node) => {
     if (oldToNew.has(node)) return oldToNew.get(node);
 
@@ -19,9 +19,9 @@ var cloneGraph = function (node) {
     return copy;
   };
   //clone it
-  let newNode = dfs(node)
+  let newNode = dfs(node);
 
   //reutrn the cloned graph
-  if(!newNode) return null 
-  return newNode
+  if (!newNode) return null;
+  return newNode;
 };

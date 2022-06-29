@@ -56,7 +56,7 @@ module.exports = {
       },
       {
         title: "回溯",
-        path: "/suanfa/backtracking",
+        path: "/suanfa/backtrack",
         collapsable: false, // 不折叠
       },
       {
@@ -67,6 +67,16 @@ module.exports = {
       {
         title: "二分查找",
         path: "/leetcode/binary_search/problems",
+        collapsable: false, // 不折叠
+      },
+      {
+        title: "图",
+        path: "/suanfa/graph",
+        collapsable: false, // 不折叠
+      },
+      {
+        title: "BST(Binary Search Tree)",
+        path: "/suanfa/bst",
         collapsable: false, // 不折叠
       },
     ],
